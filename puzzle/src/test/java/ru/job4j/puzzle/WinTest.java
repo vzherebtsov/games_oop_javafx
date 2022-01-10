@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 public class WinTest {
     @Test
     public void whenVerticalWin() {
-        int[][] board = {
+        char[][] board = {
                 {0, 0, 1, 0, 0},
                 {0, 0, 1, 0, 0},
                 {0, 0, 1, 0, 0},
@@ -22,7 +22,7 @@ public class WinTest {
 
     @Test
     public void whenHorizontalWin() {
-        int[][] board = {
+        char[][] board = {
                 {0, 0, 0, 0, 0},
                 {0, 0, 0, 0, 0},
                 {1, 1, 1, 1, 1},
@@ -34,7 +34,7 @@ public class WinTest {
 
     @Test
     public void whenNotWin() {
-        int[][] board = {
+        char[][] board = {
                 {0, 0, 0, 0, 0},
                 {0, 0, 0, 0, 0},
                 {1, 1, 1, 1, 0},
@@ -46,7 +46,7 @@ public class WinTest {
 
     @Test
     public void whenNotWinL() {
-        int[][] board = {
+        char[][] board = {
                 {0, 0, 0, 0, 0},
                 {0, 0, 0, 0, 0},
                 {0, 0, 0, 0, 0},
