@@ -64,8 +64,8 @@ public class Logic {
         return Win.check(convert());
     }
 
-    public char[][] convert() {
-        char[][] table = new char[size][size];
+    public int[][] convert() {
+        int[][] table = new int[size][size];
         for (int row = 0; row != table.length; row++) {
             for (int cell = 0; cell != table.length; cell++) {
                 int position = findBy(new Cell(row, cell));
